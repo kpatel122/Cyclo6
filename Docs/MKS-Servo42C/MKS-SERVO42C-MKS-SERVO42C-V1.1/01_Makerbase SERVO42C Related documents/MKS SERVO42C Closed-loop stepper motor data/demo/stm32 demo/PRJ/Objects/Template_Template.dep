@@ -1,0 +1,91 @@
+Dependencies for Project 'Template', Target 'Template': (DO NOT MODIFY !)
+F (..\APP\main.c)(0x5D8F189E)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\APP -I ..\BSP -I ..\CMSIS -I ..\DRIVERS -I ..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc-I.\RTE\_Template-ID:\ApplicationProgram\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\ApplicationProgram\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\BSP\usart.h)(0x5D8F1686)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\ApplicationProgram\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\APP\stm32f10x_conf.h)(0x5D8F14B7)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\misc.h)(0x4D783BB4)
+I (D:\ApplicationProgram\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+F (..\APP\stm32f10x_conf.h)(0x5D8F14B7)()
+F (..\APP\stm32f10x_it.c)(0x4D99A59E)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\APP -I ..\BSP -I ..\CMSIS -I ..\DRIVERS -I ..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc-I.\RTE\_Template-ID:\ApplicationProgram\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\ApplicationProgram\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
+I (..\APP\stm32f10x_it.h)(0x4D99A59E)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\ApplicationProgram\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\APP\stm32f10x_conf.h)(0x5D8F14B7)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\misc.h)(0x4D783BB4)
+F (..\BSP\usart.c)(0x5D8F1899)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\APP -I ..\BSP -I ..\CMSIS -I ..\DRIVERS -I ..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc-I.\RTE\_Template-ID:\ApplicationProgram\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\ApplicationProgram\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (..\BSP\usart.h)(0x5D8F1686)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\ApplicationProgram\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\APP\stm32f10x_conf.h)(0x5D8F14B7)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\misc.h)(0x4D783BB4)
+I (D:\ApplicationProgram\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+F (..\BSP\usart.h)(0x5D8F1686)()
+F (..\CMSIS\core_cm3.c)(0x4C0C587E)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\APP -I ..\BSP -I ..\CMSIS -I ..\DRIVERS -I ..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc-I.\RTE\_Template-ID:\ApplicationProgram\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\ApplicationProgram\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (D:\ApplicationProgram\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+F (..\CMSIS\startup_stm32f10x_hd.s)(0x4D783CDE)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Template-ID:\ApplicationProgram\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\ApplicationProgram\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 525" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+F (..\CMSIS\system_stm32f10x.c)(0x4D783CB0)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\APP -I ..\BSP -I ..\CMSIS -I ..\DRIVERS -I ..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc-I.\RTE\_Template-ID:\ApplicationProgram\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\ApplicationProgram\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\ApplicationProgram\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\APP\stm32f10x_conf.h)(0x5D8F14B7)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\misc.h)(0x4D783BB4)
+F (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\src\stm32f10x_gpio.c)(0x4D79EEC6)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\APP -I ..\BSP -I ..\CMSIS -I ..\DRIVERS -I ..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc-I.\RTE\_Template-ID:\ApplicationProgram\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\ApplicationProgram\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\ApplicationProgram\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\APP\stm32f10x_conf.h)(0x5D8F14B7)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\misc.h)(0x4D783BB4)
+F (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\src\stm32f10x_rcc.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\APP -I ..\BSP -I ..\CMSIS -I ..\DRIVERS -I ..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc-I.\RTE\_Template-ID:\ApplicationProgram\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\ApplicationProgram\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\ApplicationProgram\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\APP\stm32f10x_conf.h)(0x5D8F14B7)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\misc.h)(0x4D783BB4)
+F (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\src\stm32f10x_usart.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\APP -I ..\BSP -I ..\CMSIS -I ..\DRIVERS -I ..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc-I.\RTE\_Template-ID:\ApplicationProgram\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\ApplicationProgram\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\ApplicationProgram\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\APP\stm32f10x_conf.h)(0x5D8F14B7)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\misc.h)(0x4D783BB4)
+F (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\src\misc.c)(0x4D783BB4)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\APP -I ..\BSP -I ..\CMSIS -I ..\DRIVERS -I ..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc-I.\RTE\_Template-ID:\ApplicationProgram\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-ID:\ApplicationProgram\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\misc.h)(0x4D783BB4)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (D:\ApplicationProgram\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\APP\stm32f10x_conf.h)(0x5D8F14B7)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\LIB\STM32F10x_StdPeriph_Lib_V3.5.0\inc\stm32f10x_usart.h)(0x4D783BB4)

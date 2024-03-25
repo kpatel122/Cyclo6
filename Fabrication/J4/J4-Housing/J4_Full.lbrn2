@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightBurnProject AppVersion="1.4.01" FormatVersion="1" MaterialHeight="0" MirrorX="False" MirrorY="True">
+    <Thumbnail Source="iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAACXBIWXMAABf+AAAX/gH00rVLAAADHUlEQVR4nO3UMQEAIAzAMMC/5yFjRxMFvXpnZg6Q9LYDgD0GAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEGAGEfHrAF/LZ/lzEAAAAASUVORK5CYII="/>
+    <VariableText>
+        <Start Value="0"/>
+        <End Value="999"/>
+        <Current Value="0"/>
+        <Increment Value="1"/>
+        <AutoAdvance Value="0"/>
+    </VariableText>
+    <UIPrefs>
+        <Optimize_ByLayer Value="0"/>
+        <Optimize_ByGroup Value="-1"/>
+        <Optimize_ByPriority Value="1"/>
+        <Optimize_WhichDirection Value="0"/>
+        <Optimize_InnerToOuter Value="1"/>
+        <Optimize_ByDirection Value="0"/>
+        <Optimize_ReduceTravel Value="1"/>
+        <Optimize_HideBacklash Value="0"/>
+        <Optimize_ReduceDirChanges Value="0"/>
+        <Optimize_ChooseCorners Value="0"/>
+        <Optimize_AllowReverse Value="1"/>
+        <Optimize_RemoveOverlaps Value="0"/>
+        <Optimize_OptimalEntryPoint Value="1"/>
+        <Optimize_OverlapDist Value="0.025"/>
+    </UIPrefs>
+    <CutSetting type="Cut">
+        <index Value="0"/>
+        <name Value="C00"/>
+        <minPower Value="10"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="200"/>
+        <runBlower Value="0"/>
+        <forceConstantPower Value="1"/>
+        <tabCount Value="1"/>
+        <tabCountMax Value="1"/>
+    </CutSetting>
+    <CutSetting type="Scan">
+        <index Value="1"/>
+        <name Value="C01"/>
+        <minPower Value="10"/>
+        <maxPower Value="25"/>
+        <maxPower2 Value="20"/>
+        <speed Value="200"/>
+        <doOutput Value="0"/>
+        <tabCount Value="1"/>
+        <tabCountMax Value="1"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="2"/>
+        <name Value="C02"/>
+        <minPower Value="10"/>
+        <maxPower Value="80"/>
+        <maxPower2 Value="20"/>
+        <speed Value="30"/>
+        <forceConstantPower Value="1"/>
+        <priority Value="1"/>
+        <tabCount Value="1"/>
+        <tabCountMax Value="1"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="3"/>
+        <name Value="C03"/>
+        <minPower Value="10"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="30"/>
+        <forceConstantPower Value="1"/>
+        <priority Value="0"/>
+        <tabCount Value="1"/>
+        <tabCountMax Value="1"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="4"/>
+        <name Value="C04"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="5"/>
+        <name Value="C05"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="6"/>
+        <name Value="C06"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="7"/>
+        <name Value="C07"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="8"/>
+        <name Value="C08"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="9"/>
+        <name Value="C09"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="10"/>
+        <name Value="C10"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <doOutput Value="0"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="11"/>
+        <name Value="C11"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="12"/>
+        <name Value="C12"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="13"/>
+        <name Value="C13"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="14"/>
+        <name Value="C14"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="15"/>
+        <name Value="C15"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="16"/>
+        <name Value="C16"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="17"/>
+        <name Value="C17"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="18"/>
+        <name Value="C18"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="19"/>
+        <name Value="C19"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="20"/>
+        <name Value="C20"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="21"/>
+        <name Value="C21"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="22"/>
+        <name Value="C22"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="23"/>
+        <name Value="C23"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="24"/>
+        <name Value="C24"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="25"/>
+        <name Value="C25"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="26"/>
+        <name Value="Plasma"/>
+        <maxPower Value="100"/>
+        <maxPower2 Value="20"/>
+        <speed Value="20"/>
+        <tabCount Value="1"/>
+        <tabCountMax Value="1"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="27"/>
+        <name Value="Plasma-2mm"/>
+        <maxPower Value="100"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <kerf Value="2"/>
+        <throughPower Value="100"/>
+        <runBlower Value="0"/>
+        <forceConstantPower Value="1"/>
+        <tabCount Value="1"/>
+        <tabCountMax Value="1"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="28"/>
+        <name Value="C28"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="29"/>
+        <name Value="C29"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+    </CutSetting>
+    <CutSetting type="Tool">
+        <index Value="30"/>
+        <name Value="T1"/>
+    </CutSetting>
+    <CutSetting type="Tool">
+        <index Value="31"/>
+        <name Value="T2"/>
+    </CutSetting>
+    <CutSetting_Img type="Image">
+        <index Value="0"/>
+        <name Value="C00"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="jarvis"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="1"/>
+        <name Value="C01"/>
+        <maxPower Value="25"/>
+        <maxPower2 Value="20"/>
+        <speed Value="250"/>
+        <tabCount Value="1"/>
+        <tabCountMax Value="1"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="2"/>
+        <name Value="C02"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="3"/>
+        <name Value="C03"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="4"/>
+        <name Value="C04"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="5"/>
+        <name Value="C05"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="6"/>
+        <name Value="C06"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="7"/>
+        <name Value="C07"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="8"/>
+        <name Value="C08"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="9"/>
+        <name Value="C09"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="10"/>
+        <name Value="C10"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="11"/>
+        <name Value="C11"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="12"/>
+        <name Value="C12"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="13"/>
+        <name Value="C13"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="14"/>
+        <name Value="C14"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="15"/>
+        <name Value="C15"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="16"/>
+        <name Value="C16"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="17"/>
+        <name Value="C17"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="18"/>
+        <name Value="C18"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="19"/>
+        <name Value="C19"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="20"/>
+        <name Value="C20"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="21"/>
+        <name Value="C21"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="22"/>
+        <name Value="C22"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="23"/>
+        <name Value="C23"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="24"/>
+        <name Value="C24"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="25"/>
+        <name Value="C25"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="26"/>
+        <name Value="C26"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="27"/>
+        <name Value="C27"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="28"/>
+        <name Value="C28"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="29"/>
+        <name Value="C29"/>
+        <maxPower Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <ditherMode Value="stucki"/>
+    </CutSetting_Img>
+    <Notes ShowOnLoad="0" Notes=""/>
+</LightBurnProject>

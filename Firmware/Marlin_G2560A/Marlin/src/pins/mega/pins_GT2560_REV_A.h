@@ -79,11 +79,17 @@
 #define E1_DIR_PIN                            47
 #define E1_ENABLE_PIN                         48
 
+//extension module
+#define E2_STEP_PIN                           20 //SDA PD1
+#define E2_DIR_PIN                            21 //SCL PD0
+#define E2_ENABLE_PIN                         19 //RXD1 PD2
+
 //
 // Temperature Sensors
 //
 #define TEMP_0_PIN                             8
 #define TEMP_1_PIN                             9
+#define TEMP_2_PIN                             9
 #define TEMP_BED_PIN                          10
 
 //
@@ -91,6 +97,7 @@
 //
 #define HEATER_0_PIN                           2
 #define HEATER_1_PIN                           3
+#define HEATER_2_PIN                           3
 #define HEATER_BED_PIN                         4
 #ifndef FAN_PIN
   #define FAN_PIN                              7

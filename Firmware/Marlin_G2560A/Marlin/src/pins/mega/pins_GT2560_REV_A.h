@@ -31,18 +31,30 @@
 #include "env_validate.h"
 
 #ifndef BOARD_INFO_NAME
-  #define BOARD_INFO_NAME "GT2560 Rev.A"
+  #define BOARD_INFO_NAME "Cyclo Six GT2560 Rev.A"
 #endif
-#define DEFAULT_MACHINE_NAME "Prusa i3 Pro B"
+#define DEFAULT_MACHINE_NAME "Cyclo Six"
 
 //
 // Limit Switches
 //
+
+/*
 #define X_MIN_PIN                             22
 #define X_MAX_PIN                             24
 #define Y_MIN_PIN                             26
 #define Y_MAX_PIN                             28
 #define Z_MIN_PIN                             30
+*/
+
+
+#define X_MIN_PIN                             22
+#define I_MIN_PIN                             24
+#define Y_MIN_PIN                             26
+#define J_MIN_PIN                             28
+#define Z_MIN_PIN                             30
+#define K_MIN_PIN                             30 //TODO Fix this pin mapping           
+
 
 #if ENABLED(BLTOUCH)
   #if MB(GT2560_REV_A_PLUS)
@@ -71,6 +83,22 @@
 #define Z_DIR_PIN                             39
 #define Z_ENABLE_PIN                          35
 
+
+#define I_STEP_PIN                           43
+#define I_DIR_PIN                            45
+#define I_ENABLE_PIN                         41
+
+#define J_STEP_PIN                           49
+#define J_DIR_PIN                            47
+#define J_ENABLE_PIN                         48
+
+//extension module
+#define K_STEP_PIN                           20 //SDA PD1
+#define K_DIR_PIN                            21 //SCL PD0
+#define K_ENABLE_PIN                         19 //RXD1 PD2
+
+
+/*
 #define E0_STEP_PIN                           43
 #define E0_DIR_PIN                            45
 #define E0_ENABLE_PIN                         41
@@ -83,6 +111,7 @@
 #define E2_STEP_PIN                           20 //SDA PD1
 #define E2_DIR_PIN                            21 //SCL PD0
 #define E2_ENABLE_PIN                         19 //RXD1 PD2
+*/
 
 //
 // Temperature Sensors

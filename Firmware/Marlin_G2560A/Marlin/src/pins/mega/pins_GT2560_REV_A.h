@@ -53,7 +53,7 @@
 #define Y_MIN_PIN                             26
 #define J_MIN_PIN                             28
 #define Z_MIN_PIN                             30
-#define K_MIN_PIN                             30 //TODO Fix this pin mapping           
+#define K_MIN_PIN                             32 //Z MAX  
 
 
 #if ENABLED(BLTOUCH)
@@ -84,18 +84,18 @@
 #define Z_ENABLE_PIN                          35
 
 
-#define I_STEP_PIN                           43
-#define I_DIR_PIN                            45
-#define I_ENABLE_PIN                         41
+#define J_STEP_PIN                           43
+#define J_DIR_PIN                            45
+#define J_ENABLE_PIN                         41
 
-#define J_STEP_PIN                           49
-#define J_DIR_PIN                            47
-#define J_ENABLE_PIN                         48
+#define K_STEP_PIN                           49
+#define K_DIR_PIN                            47
+#define K_ENABLE_PIN                         48
 
 //extension module
-#define K_STEP_PIN                           20 //SDA PD1
-#define K_DIR_PIN                            21 //SCL PD0
-#define K_ENABLE_PIN                         19 //RXD1 PD2
+#define I_STEP_PIN                           20 //SDA PD1 LCD PINS
+#define I_DIR_PIN                            21 //SCL PD0
+#define I_ENABLE_PIN                         19 //RXD1 PD2
 
 
 /*

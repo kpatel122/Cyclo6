@@ -75,7 +75,7 @@
  */
 
 // Show the Marlin bootscreen on startup. ** ENABLE FOR PRODUCTION **
-#define SHOW_BOOTSCREEN
+//#define SHOW_BOOTSCREEN
 
 // Show the bitmap in Marlin/_Bootscreen.h on startup.
 //#define SHOW_CUSTOM_BOOTSCREEN
@@ -1089,7 +1089,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 80, 80, 80, 80}
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 80, 80, 80, 80, 80}
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -1109,7 +1109,7 @@
  * Override with M201
  *                                      X, Y, Z [, I [, J [, K]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_ACCELERATION      { 2, 2, 2, 50, 50, 50 }
+#define DEFAULT_MAX_ACCELERATION      { 1, 2, 2, 50, 50, 50 }
 
 #define LIMITED_MAX_ACCEL_EDITING     // Limit edit via M201 or LCD to DEFAULT_MAX_ACCELERATION * 2
 #if ENABLED(LIMITED_MAX_ACCEL_EDITING)
@@ -1124,11 +1124,11 @@
  *   M204 R    Retract Acceleration
  *   M204 T    Travel Acceleration
  */
-#define DEFAULT_ACCELERATION          5    // X, Y, Z ... and E acceleration for printing moves
-#define DEFAULT_RETRACT_ACCELERATION  5    // E acceleration for retracts
-#define DEFAULT_TRAVEL_ACCELERATION   5    // X, Y, Z ... acceleration for travel (non printing) moves
+#define DEFAULT_ACCELERATION          1    // X, Y, Z ... and E acceleration for printing moves
+#define DEFAULT_RETRACT_ACCELERATION  1    // E acceleration for retracts
+#define DEFAULT_TRAVEL_ACCELERATION   1    // X, Y, Z ... acceleration for travel (non printing) moves
 
-/**
+/*
  * Default Jerk limits (mm/s)
  * Override with M205 X Y Z E
  *
@@ -1138,7 +1138,7 @@
  */
 #define CLASSIC_JERK
 #if ENABLED(CLASSIC_JERK)
-  #define DEFAULT_XJERK 10.0
+  #define DEFAULT_XJERK 0.01
   #define DEFAULT_YJERK 10.0
   #define DEFAULT_ZJERK  0.3
   #define DEFAULT_IJERK  0.3
@@ -1153,7 +1153,7 @@
   #endif
 #endif
 
-#define DEFAULT_EJERK    5.0  // May be used by Linear Advance
+#define DEFAULT_EJERK    0.1  // May be used by Linear Advance
 
 /**
  * Junction Deviation Factor
@@ -1536,7 +1536,7 @@
 #define INVERT_Z_DIR false
 #define INVERT_I_DIR false
 #define INVERT_J_DIR false
-#define INVERT_K_DIR false
+#define INVERT_K_DIR true
 
 // @section extruder
 

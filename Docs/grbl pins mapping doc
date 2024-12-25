@@ -1,0 +1,106 @@
+#define X_STEP_PIN                            25
+#define X_DIR_PIN                             23
+#define X_ENABLE_PIN                          27
+
+A0
+define X_MIN_PIN                             22
+
+
+
+
+
+
+
+
+
+PORT
+
+
+C6
+#define Y_STEP_PIN                            31
+
+C4
+#define Y_DIR_PIN                             33
+
+A7
+#define Y_ENABLE_PIN                          29
+
+A4
+#define Y_MIN_PIN                             26
+---------------------------------------------------------------------------
+
+C0
+#define Z_STEP_PIN                            37
+
+G2
+#define Z_DIR_PIN                             39
+
+C2
+#define Z_ENABLE_PIN                          35
+
+C7
+#define Z_MIN_PIN                             30
+
+---------------------------------------------------
+
+
+
+D1
+#define I_STEP_PIN                           20 //
+
+D0
+#define I_DIR_PIN                            21 //S
+
+D2
+#define I_ENABLE_PIN                         19 //
+
+A2
+#define I_MIN_PIN                             24
+
+
+
+--------------------------------------------
+
+L0
+#define K_STEP_PIN                           49
+
+L2
+#define K_DIR_PIN                            47
+
+L1
+#define K_ENABLE_PIN                         48
+
+
+C5
+#define K_MIN_PIN                             32
+
+
+
+
+
+
+
+----------------------------------
+
+
+L6
+#define J_STEP_PIN                           43
+
+L4
+#define J_DIR_PIN                            45
+
+G0
+#define J_ENABLE_PIN                         41
+
+A6
+#define J_MIN_PIN                             28
+
+
+
+//limit switches
+#define X_MIN_PIN                             22
+
+#define Y_MIN_PIN                             26
+
+
+#define K_MIN_PIN                             32

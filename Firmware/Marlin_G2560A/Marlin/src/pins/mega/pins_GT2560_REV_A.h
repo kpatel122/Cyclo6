@@ -47,7 +47,7 @@
 #define Z_MIN_PIN                             30
 */
 
-
+//limit switches
 #define X_MIN_PIN                             22
 #define I_MIN_PIN                             24
 #define Y_MIN_PIN                             26

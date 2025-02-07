@@ -1,0 +1,10 @@
+Square offset params
+backlash compensation
+#112 => 2 PWM outputs: One on D8 in 0-12V and the other on another port in 0-5V, new commands such as M3.1, M4.1 and M5.1 to control the second output.
+#71 => G0 should find the shortest path on Rotary Axis (wrap-around coordinate system ?)
+CoreXY homing bug correction grbl-Mega-5X #124 / grbl-Mega #49
+Second serial port communications
+Spindle enable (laser enable) did not restore after feed hold, bug #79
+Implementy analog output (PWM output) M67/M68
+
+

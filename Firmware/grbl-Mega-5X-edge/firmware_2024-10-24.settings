@@ -1,0 +1,330 @@
+{
+  "name": "Exported settings",
+  "createdBy": "kp",
+  "date": "2024-10-24",
+  "firmwareName": "GRBL 1.2h",
+  "settings": [
+    {
+      "key": "$104",
+      "value": "80.000",
+      "units": "",
+      "description": "",
+      "shortDescription": ""
+    },
+    {
+      "key": "$30",
+      "value": "0",
+      "units": "RPM",
+      "description": "Maximum spindle speed. Sets PWM to 100% duty cycle.",
+      "shortDescription": "Maximum spindle speed"
+    },
+    {
+      "key": "$103",
+      "value": "40.000",
+      "units": "",
+      "description": "",
+      "shortDescription": ""
+    },
+    {
+      "key": "$125",
+      "value": "1.000",
+      "units": "",
+      "description": "",
+      "shortDescription": ""
+    },
+    {
+      "key": "$31",
+      "value": "5",
+      "units": "RPM",
+      "description": "Minimum spindle speed. Sets PWM to 0.4% or lowest duty cycle.",
+      "shortDescription": "Minimum spindle speed"
+    },
+    {
+      "key": "$10",
+      "value": "68",
+      "units": "mask",
+      "description": "Alters data included in status reports.",
+      "shortDescription": "Status report options"
+    },
+    {
+      "key": "$32",
+      "value": "0",
+      "units": "boolean",
+      "description": "Enables laser mode. Consecutive G1/2/3 commands will not halt when spindle speed is changed.",
+      "shortDescription": "Laser-mode enable"
+    },
+    {
+      "key": "$105",
+      "value": "80.000",
+      "units": "",
+      "description": "",
+      "shortDescription": ""
+    },
+    {
+      "key": "$11",
+      "value": "0.000",
+      "units": "millimeters",
+      "description": "Sets how fast Grbl travels through consecutive motions. Lower value slows it down.",
+      "shortDescription": "Junction deviation"
+    },
+    {
+      "key": "$12",
+      "value": "0.000",
+      "units": "millimeters",
+      "description": "Sets the G2 and G3 arc tracing accuracy based on radial error. Beware: A very small value may effect performance.",
+      "shortDescription": "Arc tolerance"
+    },
+    {
+      "key": "$13",
+      "value": "1",
+      "units": "boolean",
+      "description": "Enables inch units when returning any position and rate value that is not a settings value.",
+      "shortDescription": "Report in inches"
+    },
+    {
+      "key": "$0",
+      "value": "70",
+      "units": "microseconds",
+      "description": "Sets time length per step. Minimum 3usec.",
+      "shortDescription": "Step pulse time"
+    },
+    {
+      "key": "$1",
+      "value": "9",
+      "units": "milliseconds",
+      "description": "Sets a short hold delay when stopping to let dynamics settle before disabling steppers. Value 255 keeps motors enabled with no delay.",
+      "shortDescription": "Step idle delay"
+    },
+    {
+      "key": "$2",
+      "value": "0",
+      "units": "mask",
+      "description": "Inverts the step signal. Set axis bit to invert (00000ZYX).",
+      "shortDescription": "Step pulse invert"
+    },
+    {
+      "key": "$3",
+      "value": "128",
+      "units": "mask",
+      "description": "Inverts the direction signal. Set axis bit to invert (00000ZYX).",
+      "shortDescription": "Step direction invert"
+    },
+    {
+      "key": "$4",
+      "value": "0",
+      "units": "boolean",
+      "description": "Inverts the stepper driver enable pin signal.",
+      "shortDescription": "Invert step enable pin"
+    },
+    {
+      "key": "$5",
+      "value": "1",
+      "units": "boolean",
+      "description": "Inverts the all of the limit input pins.",
+      "shortDescription": "Invert limit pins"
+    },
+    {
+      "key": "$6",
+      "value": "0",
+      "units": "boolean",
+      "description": "Inverts the probe input pin signal.",
+      "shortDescription": "Invert probe pin"
+    },
+    {
+      "key": "$120",
+      "value": "1.000",
+      "units": "mm/sec^2",
+      "description": "X-axis acceleration. Used for motion planning to not exceed motor torque and lose steps.",
+      "shortDescription": "X-axis acceleration"
+    },
+    {
+      "key": "$100",
+      "value": "80.000",
+      "units": "step/mm",
+      "description": "X-axis travel resolution in steps per millimeter.",
+      "shortDescription": "X-axis travel resolution"
+    },
+    {
+      "key": "$122",
+      "value": "1.000",
+      "units": "mm/sec^2",
+      "description": "Z-axis acceleration. Used for motion planning to not exceed motor torque and lose steps.",
+      "shortDescription": "Z-axis acceleration"
+    },
+    {
+      "key": "$121",
+      "value": "2.000",
+      "units": "mm/sec^2",
+      "description": "Y-axis acceleration. Used for motion planning to not exceed motor torque and lose steps.",
+      "shortDescription": "Y-axis acceleration"
+    },
+    {
+      "key": "$102",
+      "value": "80.000",
+      "units": "step/mm",
+      "description": "Z-axis travel resolution in steps per millimeter.",
+      "shortDescription": "Z-axis travel resolution"
+    },
+    {
+      "key": "$124",
+      "value": "1.000",
+      "units": "",
+      "description": "",
+      "shortDescription": ""
+    },
+    {
+      "key": "$101",
+      "value": "80.000",
+      "units": "step/mm",
+      "description": "Y-axis travel resolution in steps per millimeter.",
+      "shortDescription": "Y-axis travel resolution"
+    },
+    {
+      "key": "$123",
+      "value": "1.000",
+      "units": "",
+      "description": "",
+      "shortDescription": ""
+    },
+    {
+      "key": "$115",
+      "value": "500.000",
+      "units": "",
+      "description": "",
+      "shortDescription": ""
+    },
+    {
+      "key": "$114",
+      "value": "500.000",
+      "units": "",
+      "description": "",
+      "shortDescription": ""
+    },
+    {
+      "key": "$20",
+      "value": "0",
+      "units": "boolean",
+      "description": "Enables soft limits checks within machine travel and sets alarm when exceeded. Requires homing.",
+      "shortDescription": "Soft limits enable"
+    },
+    {
+      "key": "$21",
+      "value": "0",
+      "units": "boolean",
+      "description": "Enables hard limits. Immediately halts motion and throws an alarm when switch is triggered.",
+      "shortDescription": "Hard limits enable"
+    },
+    {
+      "key": "$22",
+      "value": "0",
+      "units": "boolean",
+      "description": "Enables homing cycle. Requires limit switches on all axes.",
+      "shortDescription": "Homing cycle enable"
+    },
+    {
+      "key": "$23",
+      "value": "0",
+      "units": "mask",
+      "description": "Homing searches for a switch in the positive direction. Set axis bit (00000ZYX) to search in negative direction.",
+      "shortDescription": "Homing direction invert"
+    },
+    {
+      "key": "$24",
+      "value": "25.000",
+      "units": "mm/min",
+      "description": "Feed rate to slowly engage limit switch to determine its location accurately.",
+      "shortDescription": "Homing locate feed rate"
+    },
+    {
+      "key": "$25",
+      "value": "250.000",
+      "units": "mm/min",
+      "description": "Seek rate to quickly find the limit switch before the slower locating phase.",
+      "shortDescription": "Homing search seek rate"
+    },
+    {
+      "key": "$26",
+      "value": "250",
+      "units": "milliseconds",
+      "description": "Sets a short delay between phases of homing cycle to let a switch debounce.",
+      "shortDescription": "Homing switch debounce delay"
+    },
+    {
+      "key": "$27",
+      "value": "5.000",
+      "units": "millimeters",
+      "description": "Retract distance after triggering switch to disengage it. Homing will fail if switch isn\u0027t cleared.",
+      "shortDescription": "Homing switch pull-off distance"
+    },
+    {
+      "key": "$131",
+      "value": "180.000",
+      "units": "millimeters",
+      "description": "Maximum Y-axis travel distance from homing switch. Determines valid machine space for soft-limits and homing search distances.",
+      "shortDescription": "Y-axis maximum travel"
+    },
+    {
+      "key": "$130",
+      "value": "360.000",
+      "units": "millimeters",
+      "description": "Maximum X-axis travel distance from homing switch. Determines valid machine space for soft-limits and homing search distances.",
+      "shortDescription": "X-axis maximum travel"
+    },
+    {
+      "key": "$111",
+      "value": "500.000",
+      "units": "mm/min",
+      "description": "Y-axis maximum rate. Used as G0 rapid rate.",
+      "shortDescription": "Y-axis maximum rate"
+    },
+    {
+      "key": "$133",
+      "value": "400.000",
+      "units": "",
+      "description": "",
+      "shortDescription": ""
+    },
+    {
+      "key": "$110",
+      "value": "500.000",
+      "units": "mm/min",
+      "description": "X-axis maximum rate. Used as G0 rapid rate.",
+      "shortDescription": "X-axis maximum rate"
+    },
+    {
+      "key": "$132",
+      "value": "400.000",
+      "units": "millimeters",
+      "description": "Maximum Z-axis travel distance from homing switch. Determines valid machine space for soft-limits and homing search distances.",
+      "shortDescription": "Z-axis maximum travel"
+    },
+    {
+      "key": "$113",
+      "value": "500.000",
+      "units": "",
+      "description": "",
+      "shortDescription": ""
+    },
+    {
+      "key": "$135",
+      "value": "400.000",
+      "units": "",
+      "description": "",
+      "shortDescription": ""
+    },
+    {
+      "key": "$112",
+      "value": "500.000",
+      "units": "mm/min",
+      "description": "Z-axis maximum rate. Used as G0 rapid rate.",
+      "shortDescription": "Z-axis maximum rate"
+    },
+    {
+      "key": "$134",
+      "value": "400.000",
+      "units": "",
+      "description": "",
+      "shortDescription": ""
+    }
+  ]
+}

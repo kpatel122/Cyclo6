@@ -1,0 +1,4 @@
+ RXD1: PD2 -Digital Pin 19 K_ENABLE_PIN
+ SDA:  PD1 -Digital Pin 20 K_STEP_PIN
+ SCL:  PD0 -Digital Pin 21 K_DIR_PIN
+ TXD1: PD3 -Digital pin 18 K_MIN //end stop switch

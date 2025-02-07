@@ -359,6 +359,11 @@ void report_ngc_parameters()
 // Print current gcode parser mode state
 void report_gcode_modes()
 {
+
+  
+
+
+
   printPgmString(PSTR("[GC:G"));
   if (gc_state.modal.motion >= MOTION_MODE_PROBE_TOWARD) {
     printPgmString(PSTR("38."));
@@ -422,6 +427,10 @@ void report_gcode_modes()
 
   printPgmString(PSTR(" S"));
   printFloat(gc_state.spindle_speed,N_DECIMAL_RPMVALUE);
+
+  //kp added
+  printPgmString(PSTR(" Limits "));
+  print_uint8_base2_ndigit(limits_get_state(),N_AXIS);
 
   report_util_feedback_line_feed();
 }
@@ -706,11 +715,11 @@ void report_realtime_status()
     printFloat(sys.spindle_speed,N_DECIMAL_RPMVALUE);
   #endif
 
-  #ifdef REPORT_FIELD_PIN_STATE
+  //#ifdef REPORT_FIELD_PIN_STATE
     uint8_t lim_pin_state = limits_get_state();
     uint8_t ctrl_pin_state = system_control_get_state();
     uint8_t prb_pin_state = probe_get_state();
-    if (lim_pin_state | ctrl_pin_state | prb_pin_state) {
+    //if (lim_pin_state | ctrl_pin_state | prb_pin_state) {
       printPgmString(PSTR("|Pn:"));
       if (prb_pin_state) { serial_write('P'); }
       if (lim_pin_state) {
@@ -733,8 +742,8 @@ void report_realtime_status()
         if (bit_istrue(ctrl_pin_state,CONTROL_PIN_INDEX_FEED_HOLD)) { serial_write('H'); }
         if (bit_istrue(ctrl_pin_state,CONTROL_PIN_INDEX_CYCLE_START)) { serial_write('S'); }
       }
-    }
-  #endif
+    //}
+  //#endif
 
   #ifdef DEBUG
     printPgmString(PSTR("|Dbg:"));
@@ -810,6 +819,13 @@ void report_realtime_status()
       */
     }
   #endif
+
+  //kp added this
+   // if (bit_istrue(settings.status_report_mask,BITFLAG_RT_STATUS_LIMIT_PINS)) {
+  //printPgmString(PSTR(",Lim:"));
+  //print_uint8_base10(limits_get_state()); 
+  
+  //}
 
   serial_write('>');
   report_util_line_feed();

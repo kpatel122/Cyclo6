@@ -1,5 +1,8 @@
 # Cyclo6
-6 Axis Robot Arm
+6 DOF Robotic Arm
+ 
+
+[![Alt text](https://img.youtube.com/vi/H9xs0Rl4Idc/0.jpg)](https://www.youtube.com/watch?v=H9xs0Rl4Idc)
 
 
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
